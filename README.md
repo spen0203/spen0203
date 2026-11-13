@@ -9,13 +9,11 @@
 
 ---
 
-## 🚀 About me
+## About me
 
-- 💻 Full-stack developer who likes shipping small, useful tools end to end
-- 🧩 Published a Chrome extension to the Chrome Web Store
-- 📱 Building cross-platform mobile apps with React Native and Expo, backed by AWS
-- 🤖 Currently levelling up in AI and LLM-powered development
-- 🤝 Open to new roles and collaborations
+- Full-stack developer who likes shipping small, useful tools end to end
+- Published a Chrome extension to the Chrome Web Store
+- Building cross-platform mobile apps with React Native and Expo, backed by AWS
 
 ## 🛠️ Tech stack
 
@@ -31,7 +29,7 @@
 ## 📂 Recent projects
 
 ### 🖼️ Resolve: Gallery & Full-Size Image Downloader
-**Live on the Chrome Web Store** · Firefox version in progress
+**[Live on the Chrome Web Store](https://chromewebstore.google.com/detail/fdfieelgobaoehibbfaepkibkgpcngnk?utm_source=item-share-cb)** · Firefox version in progress
 
 A browser extension that finds every image on a page, works out the largest original version of each one, filters out logos and icons, and saves your picks as a single ZIP.
 - Detects images from `srcset`, `<picture>`, lazy-load attributes, CSS backgrounds, JSON-LD, shadow DOM and more
@@ -41,34 +39,16 @@ A browser extension that finds every image on a page, works out the largest orig
 
 `JavaScript` `Manifest V3` · [Project site](https://github.com/spen0203/Resolve.github.io)
 
-### 📚 [StudyQue](https://github.com/spen0203/StudyQue)
-A cross-platform flashcard app for iOS, Android and web.
-- Decks with flashcard and multiple-choice cards, stored locally in SQLite
-- Randomized study sessions with self-grading and score breakdowns
-- Optional cloud sync and real-time study rooms over WebSockets
-- Infrastructure as code with AWS CDK: Cognito, API Gateway, Lambda and DynamoDB
+### 🛒 Flyer Picks
+**Live at [flyer-picks.pages.dev](https://flyer-picks.pages.dev/)** · Updated weekly
+ 
+Compares this week's flyers from 17 Ottawa grocers to find the cheapest store for each home-cooking staple.
+- Weekly GitHub Actions cron pulls Flipp flyer data, sorts items into 50 regex-matched categories and converts prices to per kg, per L or per item
+- Plans a shopping route with a weighted greedy set cover: up to 4 stores, protein deals count double, a store qualifies within 10% of the best price
+- Fills 47 rule-based meal templates from what's on sale, ranked by cost per serving
+- Shares one dependency-free `core.mjs` between Node and the browser, so unticking a store recalculates the route, deals and meals in the browser
+`JavaScript` `Node.js` `GitHub Actions` `Cloudflare Pages` `Docker` `Flipp API`
 
-`TypeScript` `Expo` `React Native` `AWS CDK`
-
-### 🧠 [LeetCode Exporter](https://github.com/spen0203/LeetCode-Exporter)
-Turns a list of LeetCode problem links into study packs for offline practice, exported as PDF, HTML and MOBI for e-readers.
-- Two-step workflow: start a pack, paste in links, build
-- Can append LeetCode's starter code in your chosen language under each problem
-- [Example output (PDF)](https://github.com/spen0203/LeetCode-Exporter/blob/main/study-packs/sample-pack/sample-pack.pdf)
-
-`Python` `Playwright` `BeautifulSoup` `ebooklib`
-
-### 💪 [Gym Tracker](https://github.com/spen0203/Gym-Tracker)
-A mobile workout tracker with exercises, sets, progress stats and Google Sheets integration for managing workout data.
-
-`TypeScript` `Expo` `React Native` `Google Sheets API`
-
-## 📈 GitHub stats
-
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=spen0203&show_icons=true&hide_border=true&count_private=true" alt="GitHub stats">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spen0203&layout=compact&hide_border=true" alt="Top languages">
-</p>
 
 ## 📫 Get in touch
 
